@@ -7,18 +7,36 @@ export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">{store.message || "Loading message from the backend..."}</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-					Read documentation
-				</a>
-			</p>
+		<div className="homeBkg">
+			<div className="row">
+				<div className="col-4 ">
+					<div className="menuSqu">Plantilla</div>
+				</div>
+				<div className="col-4" />
+				<div className="col-4">
+					<div className="menuSqu">Táctica</div>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-4">
+					<div className="menuSqu">Estadísticas</div>
+				</div>
+				<div className="col-4">
+					<div className="menuSqu">Estadio</div>
+				</div>
+				<div className="col-4">
+					<div className="menuSqu">Mercado</div>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-4">
+					<div className="menuSqu">Hospital</div>
+				</div>
+				<div className="col-4" />
+				<div className="col-4">
+					<div className="menuSqu">Economía</div>
+				</div>
+			</div>
 		</div>
 	);
 };
