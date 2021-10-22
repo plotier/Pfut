@@ -8,8 +8,57 @@ background-size: cover;
     height: 300px;
     width: 450px;
     margin: 5px;
-    display: inline-block;
     border-radius: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    font-size:x-large;
+    border:black 1px solid;
 }
+.canchaPic{
+    background: url("https://esperanzasdelfutbol.com/wp-content/uploads/2020/04/ARCO-DE-UN-POTRERO........05-04-2020..jpg")  no-repeat ;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.canchaPic:hover {opacity: 1}
+.tacticaPic{
+    background:url("https://lahora.com.ec/contenido/cache/4c/futbol-aficionado-en-los-barrios-del-sur-imagen-1-_2019082091126-2000x2000.jpg") ;
+    background-size: cover;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.tacticaPic:hover {opacity: 1}
+.mercadoPic{
+    background:url("https://cdnb.20m.es/yaestaellistoquetodolosabe/files/2013/08/De-d%C3%B3nde-surge-el-t%C3%A9rmino-%E2%80%98trapichear%E2%80%99.jpg") ;
+    background-size: cover;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.mercadoPic:hover {opacity: 1}
+.economiaPic{
+    background:url("https://www.quepasaweb.com.ar/wp-content/uploads/2020/08/Armas-granadas-y-drogas-secuestradas.-Tres-de-Febrero.jpg") ;
+    background-size: cover;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.economiaPic:hover {opacity: 1}
+.plantillaPic{
+    background:url("https://ciudadjardin.eu/download/multimedia.normal.8c69276661db3dff.617361646f315f6e6f726d616c2e6a7067.jpg") ;
+    background-size: cover;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.plantillaPic:hover {opacity: 1}
+.estadisticasPic{
+    background:url("https://concreta.com.uy/wp-content/uploads/nosotrosEllos.png") ;
+    background-size: cover;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.estadisticasPic:hover {opacity: 1}
+.hospitalPic{
+    background:url("https://pbs.twimg.com/media/CXeaHNDWQAAvXDq.jpg") ;
+    background-size: cover;
+    opacity:0.7;
+    transition: 0.3s;
+}
+.hospitalPic:hover {opacity: 1}
